@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/liblab7lib.a CMakeFiles/lab7lib.dir/src/combat_visitor.cpp.o CMakeFiles/lab7lib.dir/src/dungeon.cpp.o CMakeFiles/lab7lib.dir/src/event_manager.cpp.o CMakeFiles/lab7lib.dir/src/factory.cpp.o CMakeFiles/lab7lib.dir/src/npc.cpp.o CMakeFiles/lab7lib.dir/src/npc_types.cpp.o
+/usr/bin/ranlib lib/liblab7lib.a
