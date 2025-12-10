@@ -1,7 +1,7 @@
 #pragma once
 #include "npc.hpp"
 
-class CombatVisitor; // forward declaration — avoid cyclic include
+class CombatVisitor;
 
 class Orc final : public NPCBase {
 public:

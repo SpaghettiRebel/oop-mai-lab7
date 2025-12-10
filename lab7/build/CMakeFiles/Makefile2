@@ -166,12 +166,12 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 CMakeFiles/lab7lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7lib.dir/build.make CMakeFiles/lab7lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7lib.dir/build.make CMakeFiles/lab7lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles --progress-num=13,14,15,16,17,18,19 "Built target lab7lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles --progress-num=13,14,15,16,17,18 "Built target lab7lib"
 .PHONY : CMakeFiles/lab7lib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lab7lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab7lib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles 0
 .PHONY : CMakeFiles/lab7lib.dir/rule
@@ -197,7 +197,7 @@ CMakeFiles/lab7_app.dir/all: CMakeFiles/lab7lib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lab7_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab7_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles 0
 .PHONY : CMakeFiles/lab7_app.dir/rule
@@ -225,7 +225,7 @@ CMakeFiles/lab7_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtes
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lab7_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab7_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles 0
 .PHONY : CMakeFiles/lab7_tests.dir/rule

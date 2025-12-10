@@ -746,30 +746,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7_app.dir/build.make CMakeFiles/lab7_app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/npc.o: src/npc.cpp.o
-.PHONY : src/npc.o
-
-# target to build an object file
-src/npc.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7lib.dir/build.make CMakeFiles/lab7lib.dir/src/npc.cpp.o
-.PHONY : src/npc.cpp.o
-
-src/npc.i: src/npc.cpp.i
-.PHONY : src/npc.i
-
-# target to preprocess a source file
-src/npc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7lib.dir/build.make CMakeFiles/lab7lib.dir/src/npc.cpp.i
-.PHONY : src/npc.cpp.i
-
-src/npc.s: src/npc.cpp.s
-.PHONY : src/npc.s
-
-# target to generate assembly for a file
-src/npc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7lib.dir/build.make CMakeFiles/lab7lib.dir/src/npc.cpp.s
-.PHONY : src/npc.cpp.s
-
 src/npc_types.o: src/npc_types.cpp.o
 .PHONY : src/npc_types.o
 
@@ -881,9 +857,6 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/npc.o"
-	@echo "... src/npc.i"
-	@echo "... src/npc.s"
 	@echo "... src/npc_types.o"
 	@echo "... src/npc_types.i"
 	@echo "... src/npc_types.s"

@@ -125,24 +125,10 @@ CMakeFiles/lab7lib.dir/src/factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab7lib.dir/src/factory.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/src/factory.cpp -o CMakeFiles/lab7lib.dir/src/factory.cpp.s
 
-CMakeFiles/lab7lib.dir/src/npc.cpp.o: CMakeFiles/lab7lib.dir/flags.make
-CMakeFiles/lab7lib.dir/src/npc.cpp.o: /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/src/npc.cpp
-CMakeFiles/lab7lib.dir/src/npc.cpp.o: CMakeFiles/lab7lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab7lib.dir/src/npc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab7lib.dir/src/npc.cpp.o -MF CMakeFiles/lab7lib.dir/src/npc.cpp.o.d -o CMakeFiles/lab7lib.dir/src/npc.cpp.o -c /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/src/npc.cpp
-
-CMakeFiles/lab7lib.dir/src/npc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab7lib.dir/src/npc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/src/npc.cpp > CMakeFiles/lab7lib.dir/src/npc.cpp.i
-
-CMakeFiles/lab7lib.dir/src/npc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab7lib.dir/src/npc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/src/npc.cpp -o CMakeFiles/lab7lib.dir/src/npc.cpp.s
-
 CMakeFiles/lab7lib.dir/src/npc_types.cpp.o: CMakeFiles/lab7lib.dir/flags.make
 CMakeFiles/lab7lib.dir/src/npc_types.cpp.o: /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/src/npc_types.cpp
 CMakeFiles/lab7lib.dir/src/npc_types.cpp.o: CMakeFiles/lab7lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab7lib.dir/src/npc_types.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab7lib.dir/src/npc_types.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab7lib.dir/src/npc_types.cpp.o -MF CMakeFiles/lab7lib.dir/src/npc_types.cpp.o.d -o CMakeFiles/lab7lib.dir/src/npc_types.cpp.o -c /mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/src/npc_types.cpp
 
 CMakeFiles/lab7lib.dir/src/npc_types.cpp.i: cmake_force
@@ -159,7 +145,6 @@ lab7lib_OBJECTS = \
 "CMakeFiles/lab7lib.dir/src/dungeon.cpp.o" \
 "CMakeFiles/lab7lib.dir/src/event_manager.cpp.o" \
 "CMakeFiles/lab7lib.dir/src/factory.cpp.o" \
-"CMakeFiles/lab7lib.dir/src/npc.cpp.o" \
 "CMakeFiles/lab7lib.dir/src/npc_types.cpp.o"
 
 # External object files for target lab7lib
@@ -169,11 +154,10 @@ lib/liblab7lib.a: CMakeFiles/lab7lib.dir/src/combat_visitor.cpp.o
 lib/liblab7lib.a: CMakeFiles/lab7lib.dir/src/dungeon.cpp.o
 lib/liblab7lib.a: CMakeFiles/lab7lib.dir/src/event_manager.cpp.o
 lib/liblab7lib.a: CMakeFiles/lab7lib.dir/src/factory.cpp.o
-lib/liblab7lib.a: CMakeFiles/lab7lib.dir/src/npc.cpp.o
 lib/liblab7lib.a: CMakeFiles/lab7lib.dir/src/npc_types.cpp.o
 lib/liblab7lib.a: CMakeFiles/lab7lib.dir/build.make
 lib/liblab7lib.a: CMakeFiles/lab7lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library lib/liblab7lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library lib/liblab7lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/lab7lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab7lib.dir/link.txt --verbose=$(VERBOSE)
 

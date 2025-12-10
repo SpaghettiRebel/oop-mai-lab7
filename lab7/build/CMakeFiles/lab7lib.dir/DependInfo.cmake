@@ -12,7 +12,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/src/dungeon.cpp" "CMakeFiles/lab7lib.dir/src/dungeon.cpp.o" "gcc" "CMakeFiles/lab7lib.dir/src/dungeon.cpp.o.d"
   "/mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/src/event_manager.cpp" "CMakeFiles/lab7lib.dir/src/event_manager.cpp.o" "gcc" "CMakeFiles/lab7lib.dir/src/event_manager.cpp.o.d"
   "/mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/src/factory.cpp" "CMakeFiles/lab7lib.dir/src/factory.cpp.o" "gcc" "CMakeFiles/lab7lib.dir/src/factory.cpp.o.d"
-  "/mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/src/npc.cpp" "CMakeFiles/lab7lib.dir/src/npc.cpp.o" "gcc" "CMakeFiles/lab7lib.dir/src/npc.cpp.o.d"
   "/mnt/c/Users/Вячеслав/Desktop/oop/lab7/oop-mai-lab7/lab7/src/npc_types.cpp" "CMakeFiles/lab7lib.dir/src/npc_types.cpp.o" "gcc" "CMakeFiles/lab7lib.dir/src/npc_types.cpp.o.d"
   )
 
